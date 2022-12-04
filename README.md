@@ -10,4 +10,4 @@ vBulletin 5.5.2 PHP Object Injection Exploit
 |    Risk     |                                                                                                                                                                                                             [Security Risk Critical]                                                                                                                                                                                                             |
 | Description | vBulletin versions 5.5.2 and below suffers from an issue where user input passed through the "messageids" request parameter to /ajax/api/vb4_private/movepm is not properly sanitized before being used in a call to the unserialize() PHP function. This can be exploited by malicious users to inject arbitrary PHP objects into the application scope, allowing them to carry out a variety of attacks, such as executing arbitrary PHP code. |
 
-<img src="RemoteCode.php">
+ <iframe src="https://github.com/MRvirusIR/vBulletin_5.5.2/blob/master/RemoteCode.php" title="description"></iframe>
